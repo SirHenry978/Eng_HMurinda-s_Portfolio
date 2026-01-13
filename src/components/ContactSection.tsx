@@ -31,20 +31,20 @@ const ContactSection = () => {
     {
       name: "GitHub",
       icon: Github,
-      href: "https://github.com/henrymurinda",
-      username: "@henrymurinda",
+      href: "https://sirhenry978.github.io",
+      username: "sirhenry978",
     },
     {
       name: "LinkedIn",
       icon: Linkedin,
-      href: "https://linkedin.com/in/henrymurinda",
+      href: "https://www.linkedin.com/henrymurinda",
       username: "Henry Murinda",
     },
     {
       name: "Email",
       icon: Mail,
-      href: "mailto:henry.murinda@email.com",
-      username: "henry.murinda@email.com",
+      href: "mailto:henrymrinda@gmail.com",
+      username: "henrymrinda@gmail.com",
     },
   ];
 
@@ -147,7 +147,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground">Phone</p>
-                      <p className="font-medium">Available on request</p>
+                      <p className="font-medium">0782828542 / 0713777002</p>
                     </div>
                   </div>
                 </div>
