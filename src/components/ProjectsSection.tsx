@@ -1,4 +1,10 @@
-import { Building2, GraduationCap, Scale, MessageSquare, Zap, ExternalLink, Github } from "lucide-react";
+import { Building2, GraduationCap, Scale, MessageSquare, Zap, ExternalLink } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+
+interface ProjectLink {
+  label: string;
+  url: string;
+}
 
 const projects = [
   {
@@ -7,13 +13,22 @@ const projects = [
     icon: Building2,
     tags: ["Laravel", "Vue.js", "MySQL", "REST API"],
     color: "from-cyan-500/20 to-blue-500/20",
+    demoLinks: [
+      { label: "View Demo", url: "https://melsoftzim.co.zw/realestate/public" }
+    ] as ProjectLink[],
+    isExternal: true,
   },
   {
     title: "School Management System",
     description: "Comprehensive system handling student enrollment, fees, class records, attendance, and academic reports. Streamlines educational institution operations.",
     icon: GraduationCap,
-    tags: ["PHP", "React", "PostgreSQL", "Reports"],
+    tags: ["CodeIgniter", "MySQL", "PHP", "Reports"],
     color: "from-blue-500/20 to-indigo-500/20",
+    demoLinks: [
+      { label: "Admin Portal", url: "https://melsoftzim.co.zw/mp/site/login" },
+      { label: "Student/Parent Portal", url: "https://melsoftzim.co.zw/mp/site/userlogin" }
+    ] as ProjectLink[],
+    isExternal: true,
   },
   {
     title: "Legal Management System",
@@ -21,24 +36,46 @@ const projects = [
     icon: Scale,
     tags: ["Django", "Python", "SQL", "Documents"],
     color: "from-indigo-500/20 to-purple-500/20",
+    demoLinks: [
+      { label: "View Demo", url: "https://melsoftzim.co.zw/prolex/public" }
+    ] as ProjectLink[],
+    isExternal: true,
   },
   {
     title: "QuickList Chatbot",
     description: "An AI-powered chatbot that automates customer support and business inquiries. Reduces response time and improves customer satisfaction.",
     icon: MessageSquare,
-    tags: ["Python", "AI/ML", "NLP", "API"],
+    tags: ["Python", "Django", "React.js", "REST API"],
     color: "from-purple-500/20 to-pink-500/20",
+    demoLinks: [
+      { label: "View Project", url: "/quicklist" }
+    ] as ProjectLink[],
+    isExternal: false,
   },
   {
     title: "QuickTap Chatbot",
     description: "A conversational AI system designed for fast customer engagement and lead generation. Intelligent automation for business growth.",
     icon: Zap,
-    tags: ["React", "Node.js", "AI", "Automation"],
+    tags: ["React", "Node.js", "Django", "REST API"],
     color: "from-pink-500/20 to-cyan-500/20",
+    demoLinks: [
+      { label: "View Project", url: "/quicktap" }
+    ] as ProjectLink[],
+    isExternal: false,
   },
 ];
 
 const ProjectsSection = () => {
+  const navigate = useNavigate();
+
+  const handleDemoClick = (link: ProjectLink, isExternal: boolean) => {
+    if (isExternal) {
+      window.open(link.url, '_blank');
+    } else {
+      navigate(link.url);
+    }
+  };
+
   return (
     <section id="projects" className="section-padding bg-card/30">
       <div className="container-custom">
@@ -90,16 +127,18 @@ const ProjectsSection = () => {
                     ))}
                   </div>
 
-                  {/* Links */}
-                  <div className="flex items-center gap-4 pt-4 border-t border-border/50">
-                    <button className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-primary transition-colors">
-                      <Github size={16} />
-                      <span>Code</span>
-                    </button>
-                    <button className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-primary transition-colors">
-                      <ExternalLink size={16} />
-                      <span>Demo</span>
-                    </button>
+                  {/* Demo Links */}
+                  <div className="flex flex-wrap items-center gap-3 pt-4 border-t border-border/50">
+                    {project.demoLinks.map((link) => (
+                      <button
+                        key={link.label}
+                        onClick={() => handleDemoClick(link, project.isExternal)}
+                        className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-primary transition-colors"
+                      >
+                        <ExternalLink size={16} />
+                        <span>{link.label}</span>
+                      </button>
+                    ))}
                   </div>
                 </div>
               </div>
