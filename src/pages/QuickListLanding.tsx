@@ -1,4 +1,4 @@
-import { Bot, MessageSquare, Zap, Shield, ArrowRight, ExternalLink } from "lucide-react";
+import { MessageSquare, Car, Home, CreditCard, Crown, Users, Shield, ArrowRight, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const QuickListLanding = () => {
@@ -10,40 +10,82 @@ const QuickListLanding = () => {
         <div className="container mx-auto max-w-6xl relative z-10">
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-6">
-              <Bot size={20} />
-              <span className="text-sm font-medium">AI-Powered Customer Support</span>
+              <MessageSquare size={20} />
+              <span className="text-sm font-medium">WhatsApp Marketplace Chatbot</span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               <span className="gradient-text">QuickList</span> Chatbot
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-              An intelligent AI chatbot that automates customer support and business inquiries. 
-              Reduce response time and improve customer satisfaction with 24/7 automated assistance.
+              A WhatsApp chatbot marketplace for customers, agents, and dealers to buy and sell 
+              cars, properties, land, and services. Features in-chat payments, premium subscriptions, 
+              and comprehensive admin management.
             </p>
+          </div>
+
+          {/* What You Can Trade */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+            <div className="p-4 rounded-xl bg-card border border-border text-center">
+              <Car className="mx-auto text-primary mb-2" size={28} />
+              <h4 className="font-medium text-sm">Cars</h4>
+            </div>
+            <div className="p-4 rounded-xl bg-card border border-border text-center">
+              <Home className="mx-auto text-primary mb-2" size={28} />
+              <h4 className="font-medium text-sm">Properties</h4>
+            </div>
+            <div className="p-4 rounded-xl bg-card border border-border text-center">
+              <svg className="mx-auto text-primary mb-2" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M3 21h18M9 8h1M9 12h1M9 16h1M14 8h1M14 12h1M14 16h1M5 21V5a2 2 0 012-2h10a2 2 0 012 2v16"/>
+              </svg>
+              <h4 className="font-medium text-sm">Land</h4>
+            </div>
+            <div className="p-4 rounded-xl bg-card border border-border text-center">
+              <Shield className="mx-auto text-primary mb-2" size={28} />
+              <h4 className="font-medium text-sm">Services</h4>
+            </div>
           </div>
 
           {/* Features */}
           <div className="grid md:grid-cols-3 gap-6 mb-16">
             <div className="p-6 rounded-xl bg-card border border-border">
-              <MessageSquare className="text-primary mb-4" size={32} />
-              <h3 className="text-lg font-semibold mb-2">Smart Conversations</h3>
+              <CreditCard className="text-primary mb-4" size={32} />
+              <h3 className="text-lg font-semibold mb-2">In-Chat Payments</h3>
               <p className="text-muted-foreground text-sm">
-                Natural language processing for human-like interactions with customers.
+                Secure payment processing directly within WhatsApp conversations.
               </p>
             </div>
             <div className="p-6 rounded-xl bg-card border border-border">
-              <Zap className="text-primary mb-4" size={32} />
-              <h3 className="text-lg font-semibold mb-2">Instant Responses</h3>
+              <Crown className="text-primary mb-4" size={32} />
+              <h3 className="text-lg font-semibold mb-2">Premium Subscriptions</h3>
               <p className="text-muted-foreground text-sm">
-                Lightning-fast response times to keep your customers engaged.
+                Unlock premium features with subscription plans for dealers and agents.
               </p>
             </div>
             <div className="p-6 rounded-xl bg-card border border-border">
-              <Shield className="text-primary mb-4" size={32} />
-              <h3 className="text-lg font-semibold mb-2">Secure & Reliable</h3>
+              <Users className="text-primary mb-4" size={32} />
+              <h3 className="text-lg font-semibold mb-2">User Management</h3>
               <p className="text-muted-foreground text-sm">
-                Enterprise-grade security with 99.9% uptime guarantee.
+                Admin dashboard for managing customers, agents, dealers, and listings.
               </p>
+            </div>
+          </div>
+
+          {/* User Types */}
+          <div className="grid md:grid-cols-3 gap-4 mb-12">
+            <div className="p-4 rounded-lg bg-secondary/50 text-center">
+              <Users className="mx-auto text-primary mb-2" size={24} />
+              <h4 className="font-medium">Customers</h4>
+              <p className="text-xs text-muted-foreground">Browse & buy listings</p>
+            </div>
+            <div className="p-4 rounded-lg bg-secondary/50 text-center">
+              <Crown className="mx-auto text-primary mb-2" size={24} />
+              <h4 className="font-medium">Agents/Dealers</h4>
+              <p className="text-xs text-muted-foreground">List & sell items</p>
+            </div>
+            <div className="p-4 rounded-lg bg-secondary/50 text-center">
+              <Shield className="mx-auto text-primary mb-2" size={24} />
+              <h4 className="font-medium">Admin</h4>
+              <p className="text-xs text-muted-foreground">Manage platform</p>
             </div>
           </div>
 
@@ -51,7 +93,7 @@ const QuickListLanding = () => {
           <div className="text-center mb-12">
             <p className="text-sm text-muted-foreground mb-4">Built with</p>
             <div className="flex flex-wrap justify-center gap-3">
-              {["Python", "Django", "React.js", "REST API", "NLP", "AI/ML"].map((tech) => (
+              {["Python", "Django", "React.js", "WhatsApp API", "REST API", "Payment Gateway"].map((tech) => (
                 <span key={tech} className="px-3 py-1 rounded-full bg-secondary text-sm font-mono">
                   {tech}
                 </span>
@@ -67,7 +109,7 @@ const QuickListLanding = () => {
                 <Button 
                   className="w-full gap-2" 
                   size="lg"
-                  onClick={() => window.open('https://melsoftzim.co.zw/quicklist/login', '_blank')}
+                  onClick={() => window.open('https://melsoftzim.co.zw/quicklist/admin', '_blank')}
                 >
                   <ExternalLink size={18} />
                   Admin Login
@@ -76,10 +118,19 @@ const QuickListLanding = () => {
                   variant="outline" 
                   className="w-full gap-2" 
                   size="lg"
+                  onClick={() => window.open('https://melsoftzim.co.zw/quicklist/dealer', '_blank')}
+                >
+                  <Crown size={18} />
+                  Agent/Dealer Portal
+                </Button>
+                <Button 
+                  variant="secondary" 
+                  className="w-full gap-2" 
+                  size="lg"
                   onClick={() => window.open('https://melsoftzim.co.zw/quicklist/user', '_blank')}
                 >
                   <ArrowRight size={18} />
-                  User Portal
+                  Customer Access
                 </Button>
               </div>
               <p className="text-center text-xs text-muted-foreground mt-6">
