@@ -43,9 +43,9 @@ const projects = [
   },
   {
     title: "QuickList Chatbot",
-    description: "An AI-powered chatbot that automates customer support and business inquiries. Reduces response time and improves customer satisfaction.",
+    description: "A WhatsApp chatbot marketplace for customers, agents, and dealers to buy and sell cars, properties, land, and services. Features in-chat payments and premium subscriptions.",
     icon: MessageSquare,
-    tags: ["Python", "Django", "React.js", "REST API"],
+    tags: ["Python", "Django", "WhatsApp API", "Payments"],
     color: "from-purple-500/20 to-pink-500/20",
     demoLinks: [
       { label: "View Project", url: "/quicklist" }
@@ -54,9 +54,9 @@ const projects = [
   },
   {
     title: "QuickTap Chatbot",
-    description: "A conversational AI system designed for fast customer engagement and lead generation. Intelligent automation for business growth.",
+    description: "A chatbot for commuter operators, conductors, and passengers enabling in-chat fare payments. Seamless cashless transit solution for public transport.",
     icon: Zap,
-    tags: ["React", "Node.js", "Django", "REST API"],
+    tags: ["React", "Django", "Payments", "REST API"],
     color: "from-pink-500/20 to-cyan-500/20",
     demoLinks: [
       { label: "View Project", url: "/quicktap" }
