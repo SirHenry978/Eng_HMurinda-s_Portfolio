@@ -1,0 +1,164 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 2800 >>
+stream
+BT
+/F2 22 Tf
+180 750 Td
+(HENRY NYASHA MURINDA) Tj
+0 -25 Td
+/F1 12 Tf
+(Full-Stack Software Engineer) Tj
+0 -20 Td
+/F1 10 Tf
+(Email: henrymrinda@gmail.com | Location: Zimbabwe) Tj
+0 -35 Td
+/F2 14 Tf
+(PROFESSIONAL SUMMARY) Tj
+0 -18 Td
+/F1 10 Tf
+(Results-driven full-stack software engineer with 2+ years of experience building) Tj
+0 -14 Td
+(enterprise-grade web applications and AI-powered solutions. Specializing in backend) Tj
+0 -14 Td
+(systems, web applications, and intelligent chatbots. Strong problem-solving abilities) Tj
+0 -14 Td
+(with expertise in system design for efficient, scalable solutions.) Tj
+0 -30 Td
+/F2 14 Tf
+(WORK EXPERIENCE) Tj
+0 -20 Td
+/F2 11 Tf
+(Software Engineer | 2022 - Present | Zimbabwe) Tj
+0 -16 Td
+/F1 10 Tf
+(- Built enterprise web systems using Laravel, React, and Vue.js) Tj
+0 -14 Td
+(- Designed and implemented RESTful APIs for seamless data integration) Tj
+0 -14 Td
+(- Integrated and optimized SQL databases for performance and scalability) Tj
+0 -14 Td
+(- Developed AI chatbots for automated customer support and lead generation) Tj
+0 -14 Td
+(- Managed Git-based version control and collaborative development workflows) Tj
+0 -14 Td
+(- Delivered multiple full-stack projects from conception to deployment) Tj
+0 -30 Td
+/F2 14 Tf
+(EDUCATION) Tj
+0 -20 Td
+/F2 11 Tf
+(Bachelor of Science in Computer Science - 2.1 Class Honors) Tj
+0 -16 Td
+/F1 10 Tf
+(Midlands State University, Zimbabwe) Tj
+0 -30 Td
+/F2 14 Tf
+(TECHNICAL SKILLS) Tj
+0 -20 Td
+/F2 11 Tf
+(Backend:) Tj
+/F1 10 Tf
+( Laravel, PHP, CodeIgniter, Python, Django) Tj
+0 -16 Td
+/F2 11 Tf
+(Frontend:) Tj
+/F1 10 Tf
+( React, Vue.js, HTML5, CSS3, Tailwind CSS, TypeScript) Tj
+0 -16 Td
+/F2 11 Tf
+(Mobile:) Tj
+/F1 10 Tf
+( React Native, Cross-Platform Development) Tj
+0 -16 Td
+/F2 11 Tf
+(Database:) Tj
+/F1 10 Tf
+( SQL, PostgreSQL, MySQL, Database Design) Tj
+0 -16 Td
+/F2 11 Tf
+(Tools:) Tj
+/F1 10 Tf
+( Git, GitHub, REST APIs, Node.js) Tj
+0 -30 Td
+/F2 14 Tf
+(KEY PROJECTS) Tj
+0 -20 Td
+/F2 11 Tf
+(QuickList WhatsApp Chatbot) Tj
+/F1 10 Tf
+( - React, Python, Django, REST API) Tj
+0 -14 Td
+(Marketplace chatbot for buying/selling cars, properties, land, and services.) Tj
+0 -14 Td
+(Features in-chat payments, subscriptions, and admin management portal.) Tj
+0 -20 Td
+/F2 11 Tf
+(QuickTap Commuter Chatbot) Tj
+/F1 10 Tf
+( - React, Python, Django, REST API) Tj
+0 -14 Td
+(Transport payment system for operators, conductors, and passengers.) Tj
+0 -14 Td
+(Enables fare collection, route management, and financial reporting.) Tj
+0 -20 Td
+/F2 11 Tf
+(Real Estate Management System) Tj
+/F1 10 Tf
+( - Laravel, MySQL) Tj
+0 -14 Td
+(Property management platform with listings, client management, and reporting.) Tj
+0 -20 Td
+/F2 11 Tf
+(Legal Management System) Tj
+/F1 10 Tf
+( - Laravel, MySQL) Tj
+0 -14 Td
+(Case tracking, document management, and client portal for law firms.) Tj
+0 -20 Td
+/F2 11 Tf
+(School Management System) Tj
+/F1 10 Tf
+( - CodeIgniter, MySQL) Tj
+0 -14 Td
+(Student enrollment, grading, parent portal, and administrative tools.) Tj
+0 -30 Td
+/F2 14 Tf
+(CERTIFICATIONS) Tj
+0 -18 Td
+/F1 10 Tf
+(- SQL Database Certification) Tj
+0 -14 Td
+(- Full-Stack Web Development) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000230 00000 n 
+0000003084 00000 n 
+0000003151 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3224
+%%EOF
