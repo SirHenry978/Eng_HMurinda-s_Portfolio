@@ -119,7 +119,10 @@ const QuickTapLanding = () => {
 
           {/* Back Link */}
           <div className="text-center mt-12">
-            <a href="/#projects" className="text-primary hover:underline inline-flex items-center gap-1">
+            <a
+              href={`${import.meta.env.BASE_URL}#projects`}
+              className="text-primary hover:underline inline-flex items-center gap-1"
+            >
               ← Back to Portfolio
             </a>
           </div>

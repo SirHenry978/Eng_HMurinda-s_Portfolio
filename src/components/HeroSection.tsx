@@ -49,7 +49,7 @@ const HeroSection = () => {
               <ExternalLink size={18} className="group-hover:translate-x-1 transition-transform" />
             </a>
             <a
-              href="/cv.pdf"
+              href={`${import.meta.env.BASE_URL}cv.pdf`}
               download
               className="group inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-primary text-primary font-medium hover:bg-primary/10 transition-all duration-300"
             >
