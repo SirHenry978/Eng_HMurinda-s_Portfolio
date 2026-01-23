@@ -1,4 +1,5 @@
 import { ArrowDown, Download, Mail, ExternalLink } from "lucide-react";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const HeroSection = () => {
   return (
@@ -21,11 +22,17 @@ const HeroSection = () => {
             Hello, I'm
           </p>
 
-          {/* Name */}
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight mb-4 animate-fade-in" style={{ animationDelay: "0.3s" }}>
-            Henry Nyasha{" "}
-            <span className="gradient-text">Murinda</span>
-          </h1>
+          {/* Name with Avatar */}
+          <div className="flex items-center justify-center gap-4 mb-4 animate-fade-in" style={{ animationDelay: "0.3s" }}>
+            <Avatar className="h-16 w-16 md:h-20 md:w-20 border-2 border-primary/50 shadow-lg shadow-primary/20">
+              <AvatarImage src={`${import.meta.env.BASE_URL}profile.jpg`} alt="Henry Nyasha Murinda" />
+              <AvatarFallback className="bg-primary/20 text-primary text-xl md:text-2xl font-bold">HNM</AvatarFallback>
+            </Avatar>
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight">
+              Henry Nyasha{" "}
+              <span className="gradient-text">Murinda</span>
+            </h1>
+          </div>
 
           {/* Title */}
           <h2 className="text-xl sm:text-2xl md:text-3xl font-medium text-muted-foreground mb-6 animate-fade-in" style={{ animationDelay: "0.4s" }}>
