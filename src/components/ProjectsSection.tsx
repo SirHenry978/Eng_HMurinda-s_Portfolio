@@ -1,4 +1,4 @@
-import { Building2, GraduationCap, Scale, MessageSquare, Zap, ExternalLink } from "lucide-react";
+import { Building2, GraduationCap, Scale, MessageSquare, Zap, ExternalLink, Globe } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 interface ProjectLink {
@@ -62,6 +62,17 @@ const projects = [
       { label: "View Project", url: "/quicktap" }
     ] as ProjectLink[],
     isExternal: false,
+  },
+  {
+    title: "Young and Wise College Website",
+    description: "A modern, responsive website for an educational institution showcasing courses, admissions, and campus information with an engaging user experience.",
+    icon: Globe,
+    tags: ["HTML", "CSS", "JavaScript", "Responsive"],
+    color: "from-emerald-500/20 to-teal-500/20",
+    demoLinks: [
+      { label: "View Website", url: "https://sirhenry978.github.io/youngnwisecollege/" }
+    ] as ProjectLink[],
+    isExternal: true,
   },
 ];
 
