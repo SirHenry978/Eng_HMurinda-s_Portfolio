@@ -14,7 +14,7 @@ const projects = [
     tags: ["Laravel", "Vue.js", "MySQL", "REST API"],
     color: "from-cyan-500/20 to-blue-500/20",
     demoLinks: [
-      { label: "View Demo", url: "https://melsoftzim.co.zw/realestate/public" }
+      { label: "View Demo", url: "https://melsoftzim.co.zw/vaulta/public" }
     ] as ProjectLink[],
     isExternal: true,
   },
