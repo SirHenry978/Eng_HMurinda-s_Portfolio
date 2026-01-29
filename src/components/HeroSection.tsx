@@ -24,10 +24,15 @@ const HeroSection = () => {
 
           {/* Profile Picture */}
           <div className="flex justify-center mb-6 animate-fade-in" style={{ animationDelay: "0.25s" }}>
-            <Avatar className="h-32 w-32 md:h-40 md:w-40 border-4 border-primary/50 shadow-xl shadow-primary/25">
-              <AvatarImage src={`${import.meta.env.BASE_URL}profile.png`} alt="Henry Nyasha Murinda" className="object-cover scale-110" />
-              <AvatarFallback className="bg-primary/20 text-primary text-3xl md:text-4xl font-bold">HNM</AvatarFallback>
-            </Avatar>
+            <div className="relative">
+              {/* Glowing ring animation */}
+              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary via-primary/50 to-primary animate-spin-slow opacity-75 blur-md scale-110" />
+              <div className="absolute inset-0 rounded-full animate-pulse-glow" />
+              <Avatar className="relative h-32 w-32 md:h-40 md:w-40 border-4 border-primary/50 shadow-xl shadow-primary/25">
+                <AvatarImage src={`${import.meta.env.BASE_URL}profile.png`} alt="Henry Nyasha Murinda" className="object-cover scale-110" />
+                <AvatarFallback className="bg-primary/20 text-primary text-3xl md:text-4xl font-bold">HNM</AvatarFallback>
+              </Avatar>
+            </div>
           </div>
 
           {/* Name */}
