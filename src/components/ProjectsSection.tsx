@@ -1,4 +1,4 @@
-import { Building2, GraduationCap, Scale, MessageSquare, Zap, ExternalLink, Globe } from "lucide-react";
+import { Building2, GraduationCap, Scale, MessageSquare, Zap, ExternalLink, Globe, Calculator } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 interface ProjectLink {
@@ -71,6 +71,17 @@ const projects = [
     color: "from-emerald-500/20 to-teal-500/20",
     demoLinks: [
       { label: "View Website", url: "https://sirhenry978.github.io/youngnwisecollege/" }
+    ] as ProjectLink[],
+    isExternal: true,
+  },
+  {
+    title: "Quanta Accounting Software",
+    description: "Comprehensive accounting system for managing finances, invoicing, expenses, and generating financial reports. Built for businesses of all sizes.",
+    icon: Calculator,
+    tags: ["Laravel", "MySQL", "PHP", "Reports"],
+    color: "from-amber-500/20 to-orange-500/20",
+    demoLinks: [
+      { label: "View Demo", url: "https://melsoftzim.co.zw/demo/public" }
     ] as ProjectLink[],
     isExternal: true,
   },
