@@ -24,11 +24,11 @@ const HeroSection = () => {
 
           {/* Profile Picture */}
           <div className="flex justify-center mb-6 animate-fade-in" style={{ animationDelay: "0.25s" }}>
-            <div className="relative">
+            <div className="relative group cursor-pointer">
               {/* Glowing ring animation */}
-              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary via-primary/50 to-primary animate-spin-slow opacity-75 blur-md scale-110" />
+              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary via-primary/50 to-primary animate-spin-slow opacity-75 blur-md scale-110 group-hover:opacity-100 group-hover:scale-125 transition-all duration-300" />
               <div className="absolute inset-0 rounded-full animate-pulse-glow" />
-              <Avatar className="relative h-32 w-32 md:h-40 md:w-40 border-4 border-primary/50 shadow-xl shadow-primary/25">
+              <Avatar className="relative h-32 w-32 md:h-40 md:w-40 border-4 border-primary/50 shadow-xl shadow-primary/25 transition-transform duration-300 group-hover:scale-110">
                 <AvatarImage src={`${import.meta.env.BASE_URL}profile.png`} alt="Henry Nyasha Murinda" className="object-cover scale-110" />
                 <AvatarFallback className="bg-primary/20 text-primary text-3xl md:text-4xl font-bold">HNM</AvatarFallback>
               </Avatar>
