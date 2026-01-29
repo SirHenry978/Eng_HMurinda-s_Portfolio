@@ -81,7 +81,7 @@ const projects = [
     tags: ["Laravel", "MySQL", "PHP", "Reports"],
     color: "from-amber-500/20 to-orange-500/20",
     demoLinks: [
-      { label: "View Demo", url: "https://melsoftzim.co.zw/demo/public" }
+      { label: "View Demo", url: "https://melsoftzim.co.zw/melsoft/public" }
     ] as ProjectLink[],
     isExternal: true,
   },
