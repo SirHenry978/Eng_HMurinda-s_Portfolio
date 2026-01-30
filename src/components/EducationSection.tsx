@@ -2,7 +2,7 @@ import { GraduationCap, Award, Calendar } from "lucide-react";
 
 const education = [
   {
-    degree: "Bachelor of Science in Computer Science",
+    degree: "Bachelor of Science Honours Degree in Computer Science",
     institution: "Midlands State University (MSU)",
     year: "2024",
     grade: "2.1 Class Honors",
