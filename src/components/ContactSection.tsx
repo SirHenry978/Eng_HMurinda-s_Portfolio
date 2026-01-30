@@ -55,8 +55,8 @@ const ContactSection = () => {
     {
       name: "LinkedIn",
       icon: Linkedin,
-      href: "https://www.linkedin.com/henrymurinda",
-      username: "Henry Murinda",
+      href: "https://linkedin.com/in/sirhenry03",
+      username: "sirhenry03",
     },
     {
       name: "Email",
