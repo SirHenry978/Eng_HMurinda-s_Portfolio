@@ -4,7 +4,7 @@ const education = [
   {
     degree: "Bachelor of Science in Computer Science",
     institution: "Midlands State University (MSU)",
-    year: "2022",
+    year: "2024",
     grade: "2.1 Class Honors",
     icon: GraduationCap,
   },
