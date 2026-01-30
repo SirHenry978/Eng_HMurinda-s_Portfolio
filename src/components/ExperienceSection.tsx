@@ -4,7 +4,7 @@ const experiences = [
   {
     role: "Software Engineer",
     company: "Professional Experience",
-    period: "2022 - Present",
+    period: "2024 - Present",
     location: "Zimbabwe",
     description: "Building enterprise-grade web applications and AI-powered solutions.",
     achievements: [
