@@ -1,4 +1,4 @@
-import { Building2, GraduationCap, Scale, MessageSquare, Zap, ExternalLink, Globe, Calculator } from "lucide-react";
+import { Building2, GraduationCap, Scale, MessageSquare, Zap, ExternalLink, Globe, Calculator, Leaf } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 interface ProjectLink {
@@ -82,6 +82,17 @@ const projects = [
     color: "from-amber-500/20 to-orange-500/20",
     demoLinks: [
       { label: "View Demo", url: "https://melsoftzim.co.zw/melsoft/public" }
+    ] as ProjectLink[],
+    isExternal: true,
+  },
+  {
+    title: "FarmIQ",
+    description: "A multi-branch farm management system for tracking crops, livestock, inventory, and operations across multiple farm locations. Streamlines agricultural business management.",
+    icon: Leaf,
+    tags: ["React", "Laravel", "MySQL", "Multi-Branch"],
+    color: "from-green-500/20 to-emerald-500/20",
+    demoLinks: [
+      { label: "View Demo", url: "https://sirhenry978.github.io/green-acre-management/" }
     ] as ProjectLink[],
     isExternal: true,
   },
