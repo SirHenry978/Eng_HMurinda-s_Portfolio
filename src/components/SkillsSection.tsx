@@ -1,4 +1,4 @@
-import { Server, Layout, Smartphone, Wrench } from "lucide-react";
+import { Server, Layout, Smartphone, Wrench, ShieldCheck, Cloud } from "lucide-react";
 
 const skillCategories = [
   {
@@ -25,6 +25,18 @@ const skillCategories = [
     skills: ["Git", "GitHub", "SQL", "PostgreSQL", "REST APIs"],
     color: "from-purple-500 to-pink-600",
   },
+  {
+    title: "Enterprise Security",
+    icon: ShieldCheck,
+    skills: ["RBAC", "Audit Logs", "Soft Deletes", "Password Hashing", "Session Security"],
+    color: "from-emerald-500 to-teal-600",
+  },
+  {
+    title: "Deployment & Env",
+    icon: Cloud,
+    skills: ["cPanel", "VPS Setup", "HTTPS", "DB Migrations", "Backup Strategy"],
+    color: "from-amber-500 to-orange-600",
+  },
 ];
 
 const SkillsSection = () => {
@@ -41,7 +53,7 @@ const SkillsSection = () => {
           </div>
 
           {/* Skills Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {skillCategories.map((category, index) => (
               <div
                 key={category.title}
