@@ -6,130 +6,209 @@ endobj
 << /Type /Pages /Kids [3 0 R] /Count 1 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> /ExtGState << /GS1 7 0 R >> >> >>
 endobj
 4 0 obj
-<< /Length 3400 >>
+<< /Length 4200 >>
 stream
+% Header background bar
+q
+/GS1 gs
+0.06 0.15 0.22 rg
+0 712 612 80 re f
+Q
+% Accent line
+0.0 0.8 0.9 rg
+0 710 612 3 re f
+0.0 0.0 0.0 rg
 BT
-/F2 24 Tf
-72 760 Td
-0 Tc
+/F2 26 Tf
+1 1 1 rg
+72 745 Td
 (HENRY NYASHA MURINDA) Tj
-0 -24 Td
-/F1 12 Tf
+0 -22 Td
+/F1 13 Tf
+0.7 0.9 1.0 rg
 (Full-Stack Software Engineer) Tj
-0 -18 Td
-/F1 10 Tf
-(henrymrinda@gmail.com | 0782828542 / 0713777002 | Zimbabwe) Tj
-0 -32 Td
-/F2 14 Tf
+ET
+% Contact info bar
+0.08 0.18 0.26 rg
+0 670 612 38 re f
+BT
+/F1 9 Tf
+0.75 0.85 0.95 rg
+72 685 Td
+(henrymrinda@gmail.com  |  0782828542 / 0713777002  |  No. 4153 Chikanga 2, Mutare, Zimbabwe) Tj
+ET
+% Section: Professional Summary
+BT
+/F2 13 Tf
+0.0 0.8 0.9 rg
+72 645 Td
 (PROFESSIONAL SUMMARY) Tj
-0 -18 Td
+ET
+0.0 0.8 0.9 rg
+72 641 168 1 re f
+BT
 /F1 10 Tf
-(Results-driven full-stack software engineer with 2+ years of experience) Tj
+0.2 0.2 0.2 rg
+72 625 Td
+(Results-driven full-stack software engineer with 2+ years of experience building enterprise-grade) Tj
 0 -14 Td
-(building enterprise-grade web applications and AI-powered solutions.) Tj
+(web applications and AI-powered solutions. Specializing in backend systems, web applications,) Tj
 0 -14 Td
-(Specializing in backend systems, web applications, and intelligent chatbots.) Tj
-0 -28 Td
-/F2 14 Tf
+(and intelligent chatbots.) Tj
+ET
+% Section: Work Experience
+BT
+/F2 13 Tf
+0.0 0.8 0.9 rg
+72 575 Td
 (WORK EXPERIENCE) Tj
-0 -20 Td
+ET
+0.0 0.8 0.9 rg
+72 571 140 1 re f
+BT
 /F2 11 Tf
-(Software Developer Graduate Trainee | Melsoft Private Limited) Tj
-0 -14 Td
+0.15 0.15 0.15 rg
+72 555 Td
+(Software Developer Graduate Trainee  |  Melsoft Private Limited) Tj
 /F1 10 Tf
-(2024 - Present | Zimbabwe) Tj
-0 -16 Td
+0.4 0.4 0.4 rg
+0 -15 Td
+(2024 - Present  |  Zimbabwe) Tj
 /F1 10 Tf
-(Built enterprise web systems using Laravel, React, and Vue.js) Tj
+0.2 0.2 0.2 rg
+0 -18 Td
+(\225  Built enterprise web systems using Laravel, React, and Vue.js) Tj
 0 -14 Td
-(Designed and implemented RESTful APIs for seamless data integration) Tj
+(\225  Designed and implemented RESTful APIs for seamless data integration) Tj
 0 -14 Td
-(Integrated and optimized SQL databases for performance and scalability) Tj
+(\225  Integrated and optimized SQL databases for performance and scalability) Tj
 0 -14 Td
-(Developed AI chatbots for automated customer support and lead generation) Tj
+(\225  Developed AI chatbots for automated customer support and lead generation) Tj
 0 -14 Td
-(Managed Git-based version control and collaborative development) Tj
+(\225  Managed Git-based version control and collaborative development) Tj
 0 -14 Td
-(Network setup, troubleshooting, trunking, and configuration) Tj
-0 -28 Td
-/F2 14 Tf
+(\225  Network setup, troubleshooting, trunking, and configuration) Tj
+ET
+% Section: Education
+BT
+/F2 13 Tf
+0.0 0.8 0.9 rg
+72 425 Td
 (EDUCATION) Tj
-0 -18 Td
+ET
+0.0 0.8 0.9 rg
+72 421 80 1 re f
+BT
 /F2 11 Tf
+0.15 0.15 0.15 rg
+72 405 Td
 (Bachelor of Science in Computer Science - 2.1 Class Honors) Tj
-0 -16 Td
 /F1 10 Tf
+0.4 0.4 0.4 rg
+0 -15 Td
 (Midlands State University, Zimbabwe) Tj
-0 -28 Td
-/F2 14 Tf
+ET
+% Section: Technical Skills
+BT
+/F2 13 Tf
+0.0 0.8 0.9 rg
+72 368 Td
 (TECHNICAL SKILLS) Tj
-0 -18 Td
+ET
+0.0 0.8 0.9 rg
+72 364 130 1 re f
+BT
 /F1 10 Tf
-(Backend: Laravel, PHP, CodeIgniter, Python, Django) Tj
+0.2 0.2 0.2 rg
+72 348 Td
+(\225  Backend: Laravel, PHP, CodeIgniter, Python, Django) Tj
 0 -14 Td
-(Frontend: React, Vue.js, HTML5, CSS3, Tailwind CSS, TypeScript) Tj
+(\225  Frontend: React, Vue.js, HTML5, CSS3, Tailwind CSS, TypeScript) Tj
 0 -14 Td
-(Mobile: React Native, Cross-Platform Development) Tj
+(\225  Mobile: React Native, Cross-Platform Development) Tj
 0 -14 Td
-(Database: SQL, PostgreSQL, MySQL, Database Design) Tj
+(\225  Database: SQL, PostgreSQL, MySQL, Database Design) Tj
 0 -14 Td
-(Tools: Git, GitHub, REST APIs, Node.js) Tj
+(\225  Tools: Git, GitHub, REST APIs, Node.js) Tj
 0 -14 Td
-(Networking: Network Setup, Troubleshooting, Trunking, Configuration) Tj
-0 -28 Td
-/F2 14 Tf
+(\225  Security: RBAC, Audit Logs, Password Hashing, Session Security) Tj
+0 -14 Td
+(\225  DevOps: cPanel, VPS Setup, HTTPS, DB Migrations, Backup Strategy) Tj
+0 -14 Td
+(\225  Networking: Network Setup, Troubleshooting, Trunking, Configuration) Tj
+ET
+% Section: Key Projects
+BT
+/F2 13 Tf
+0.0 0.8 0.9 rg
+72 222 Td
 (KEY PROJECTS) Tj
-0 -18 Td
-/F2 11 Tf
+ET
+0.0 0.8 0.9 rg
+72 218 100 1 re f
+BT
+/F1 10 Tf
+0.2 0.2 0.2 rg
+72 202 Td
+(\225  ) Tj
+/F2 10 Tf
+(FarmIQ) Tj
+/F1 10 Tf
+( - React, Laravel, MySQL \(Multi-Branch Farm Management\)) Tj
+0 -14 Td
+(\225  ) Tj
+/F2 10 Tf
 (QuickList WhatsApp Chatbot) Tj
 /F1 10 Tf
 ( - React, Python, Django) Tj
 0 -14 Td
-(Marketplace chatbot for buying/selling cars, properties, and services) Tj
-0 -18 Td
-/F2 11 Tf
+(\225  ) Tj
+/F2 10 Tf
 (QuickTap Commuter Chatbot) Tj
 /F1 10 Tf
 ( - React, Python, Django) Tj
 0 -14 Td
-(Transport payment system for operators, conductors, and passengers) Tj
-0 -18 Td
-/F2 11 Tf
+(\225  ) Tj
+/F2 10 Tf
 (Real Estate Management System) Tj
 /F1 10 Tf
 ( - Laravel, MySQL) Tj
 0 -14 Td
-(Property management platform with listings and reporting) Tj
-0 -18 Td
-/F2 11 Tf
+(\225  ) Tj
+/F2 10 Tf
 (Quanta Accounting Software) Tj
 /F1 10 Tf
 ( - Laravel, MySQL) Tj
 0 -14 Td
-(Comprehensive accounting system for financial management) Tj
-0 -18 Td
-/F2 11 Tf
+(\225  ) Tj
+/F2 10 Tf
 (Legal Management System) Tj
 /F1 10 Tf
 ( - Laravel, MySQL) Tj
 0 -14 Td
-(Case tracking and document management for law firms) Tj
-0 -18 Td
-/F2 11 Tf
+(\225  ) Tj
+/F2 10 Tf
 (School Management System) Tj
 /F1 10 Tf
 ( - CodeIgniter, MySQL) Tj
-0 -14 Td
-(Student enrollment, grading, and administrative tools) Tj
-0 -28 Td
-/F2 14 Tf
+ET
+% Section: Certifications
+BT
+/F2 13 Tf
+0.0 0.8 0.9 rg
+72 92 Td
 (CERTIFICATIONS) Tj
-0 -18 Td
+ET
+0.0 0.8 0.9 rg
+72 88 110 1 re f
+BT
 /F1 10 Tf
-(SQL Database Certification | Full-Stack Web Development) Tj
+0.2 0.2 0.2 rg
+72 72 Td
+(\225  SQL Database Certification  |  Full-Stack Web Development) Tj
 ET
 endstream
 endobj
@@ -139,17 +218,21 @@ endobj
 6 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
+7 0 obj
+<< /Type /ExtGState /ca 1.0 /CA 1.0 >>
+endobj
 xref
-0 7
+0 8
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
 0000000115 00000 n 
-0000000230 00000 n 
-0000003684 00000 n 
-0000003751 00000 n 
+0000000282 00000 n 
+0000004536 00000 n 
+0000004603 00000 n 
+0000004674 00000 n 
 trailer
-<< /Size 7 /Root 1 0 R >>
+<< /Size 8 /Root 1 0 R >>
 startxref
-3824
+4734
 %%EOF
