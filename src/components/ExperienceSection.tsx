@@ -29,7 +29,7 @@ const ExperienceSection = () => {
   return (
     <section id="experience" className="section-padding">
       <div className="container-custom">
-        <div className="max-w-7xl mx-auto">
+        <div className="w-full">
           {/* Section Header */}
           <div className="text-center mb-16">
             <p className="text-primary font-mono text-sm mb-2">My journey</p>
