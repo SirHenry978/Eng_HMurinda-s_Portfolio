@@ -3,13 +3,13 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [3 0 R 8 0 R] /Count 2 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> /ExtGState << /GS1 7 0 R >> >> >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 9 0 R >> /ExtGState << /GS1 7 0 R >> >> >>
 endobj
 4 0 obj
-<< /Length 4200 >>
+<< /Length 5800 >>
 stream
 % Header background bar
 q
@@ -26,10 +26,19 @@ BT
 1 1 1 rg
 72 745 Td
 (HENRY NYASHA MURINDA) Tj
-0 -22 Td
+ET
+% Curriculum Vitae subheading
+BT
+/F3 14 Tf
+0.7 0.9 1.0 rg
+72 723 Td
+(Curriculum Vitae) Tj
+ET
+BT
 /F1 13 Tf
 0.7 0.9 1.0 rg
-(Full-Stack Software Engineer) Tj
+220 723 Td
+(|  Full-Stack Software Engineer) Tj
 ET
 % Contact info bar
 0.08 0.18 0.26 rg
@@ -80,31 +89,47 @@ BT
 /F1 10 Tf
 0.2 0.2 0.2 rg
 0 -18 Td
-(\225  Built enterprise web systems using Laravel, React, and Vue.js) Tj
+(\276  Designed and developed web-based management systems using PHP, Laravel, and CodeIgniter) Tj
 0 -14 Td
-(\225  Designed and implemented RESTful APIs for seamless data integration) Tj
+(\276  Built and maintained school management modules: fees, exams, homework, library, reporting) Tj
 0 -14 Td
-(\225  Integrated and optimized SQL databases for performance and scalability) Tj
+(\276  Implemented financial reporting: Income Statement, Trial Balance, General Ledger, Balance Sheet) Tj
 0 -14 Td
-(\225  Developed AI chatbots for automated customer support and lead generation) Tj
+(\276  Developed AJAX-powered features to improve system performance and user experience) Tj
 0 -14 Td
-(\225  Managed Git-based version control and collaborative development) Tj
+(\276  Created dynamic reporting: Age Analysis, Outstanding Fee Reports, Rent Collection Reports) Tj
 0 -14 Td
-(\225  Network setup, troubleshooting, trunking, and configuration) Tj
+(\276  Integrated database-driven dashboards for real-time financial and operational data) Tj
+0 -14 Td
+(\276  Designed and optimized MySQL database structures for performance and data integrity) Tj
+0 -14 Td
+(\276  Developed RESTful APIs and backend services for modern web applications) Tj
+0 -14 Td
+(\276  Implemented secure authentication systems and role-based access control) Tj
+0 -14 Td
+(\276  Deployed and maintained web applications on cPanel with HTTPS security) Tj
+0 -14 Td
+(\276  Developed AI chatbots for automated customer support and lead generation) Tj
+0 -14 Td
+(\276  Collaborated with clients to gather requirements and deliver scalable solutions) Tj
+0 -14 Td
+(\276  Built enterprise web systems using Laravel, React, and Vue.js) Tj
+0 -14 Td
+(\276  Managed Git-based version control and collaborative development workflows) Tj
 ET
 % Section: Education
 BT
 /F2 13 Tf
 0.0 0.8 0.9 rg
-72 425 Td
+72 298 Td
 (EDUCATION) Tj
 ET
 0.0 0.8 0.9 rg
-72 421 80 1 re f
+72 294 80 1 re f
 BT
 /F2 11 Tf
 0.15 0.15 0.15 rg
-72 405 Td
+72 278 Td
 (Bachelor of Science in Computer Science - 2.1 Class Honors) Tj
 /F1 10 Tf
 0.4 0.4 0.4 rg
@@ -115,81 +140,106 @@ ET
 BT
 /F2 13 Tf
 0.0 0.8 0.9 rg
-72 368 Td
+72 240 Td
 (TECHNICAL SKILLS) Tj
 ET
 0.0 0.8 0.9 rg
-72 364 130 1 re f
+72 236 130 1 re f
 BT
 /F1 10 Tf
 0.2 0.2 0.2 rg
-72 348 Td
-(\225  Backend: Laravel, PHP, CodeIgniter, Python, Django) Tj
+72 220 Td
+(\276  Backend: Laravel, PHP, CodeIgniter, Python, Django, C#) Tj
 0 -14 Td
-(\225  Frontend: React, Vue.js, HTML5, CSS3, Tailwind CSS, TypeScript) Tj
+(\276  Frontend: React, Vue.js, HTML5, CSS3, Tailwind CSS, TypeScript) Tj
 0 -14 Td
-(\225  Mobile: React Native, Cross-Platform Development) Tj
+(\276  Mobile: Flutter, React Native, Cross-Platform Development) Tj
 0 -14 Td
-(\225  Database: SQL, PostgreSQL, MySQL, Database Design) Tj
+(\276  Desktop: C#, .NET, Windows Applications) Tj
 0 -14 Td
-(\225  Tools: Git, GitHub, REST APIs, Node.js) Tj
+(\276  Database: SQL, PostgreSQL, MySQL, Database Design) Tj
 0 -14 Td
-(\225  Security: RBAC, Audit Logs, Password Hashing, Session Security) Tj
+(\276  Tools: Git, GitHub, REST APIs, Node.js, AJAX) Tj
 0 -14 Td
-(\225  DevOps: cPanel, VPS Setup, HTTPS, DB Migrations, Backup Strategy) Tj
+(\276  Security: RBAC, Audit Logs, Password Hashing, Session Security) Tj
 0 -14 Td
-(\225  Networking: Network Setup, Troubleshooting, Trunking, Configuration) Tj
+(\276  DevOps: cPanel, VPS Setup, HTTPS, DB Migrations, Backup Strategy) Tj
+0 -14 Td
+(\276  Networking: Network Setup, Troubleshooting, Trunking, Configuration) Tj
+ET
+% Continued on page 2...
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 10 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 9 0 R >> /ExtGState << /GS1 7 0 R >> >> >>
+endobj
+10 0 obj
+<< /Length 2400 >>
+stream
+% Page 2 header bar
+q
+/GS1 gs
+0.06 0.15 0.22 rg
+0 752 612 40 re f
+Q
+0.0 0.8 0.9 rg
+0 750 612 3 re f
+BT
+/F2 14 Tf
+1 1 1 rg
+72 765 Td
+(HENRY NYASHA MURINDA  |  Curriculum Vitae) Tj
 ET
 % Section: Key Projects
 BT
 /F2 13 Tf
 0.0 0.8 0.9 rg
-72 222 Td
+72 720 Td
 (KEY PROJECTS) Tj
 ET
 0.0 0.8 0.9 rg
-72 218 100 1 re f
+72 716 100 1 re f
 BT
 /F1 10 Tf
 0.2 0.2 0.2 rg
-72 202 Td
-(\225  ) Tj
+72 700 Td
+(\276  ) Tj
 /F2 10 Tf
 (FarmIQ) Tj
 /F1 10 Tf
 ( - React, Laravel, MySQL \(Multi-Branch Farm Management\)) Tj
 0 -14 Td
-(\225  ) Tj
+(\276  ) Tj
 /F2 10 Tf
 (QuickList WhatsApp Chatbot) Tj
 /F1 10 Tf
 ( - React, Python, Django) Tj
 0 -14 Td
-(\225  ) Tj
+(\276  ) Tj
 /F2 10 Tf
 (QuickTap Commuter Chatbot) Tj
 /F1 10 Tf
 ( - React, Python, Django) Tj
 0 -14 Td
-(\225  ) Tj
+(\276  ) Tj
 /F2 10 Tf
 (Real Estate Management System) Tj
 /F1 10 Tf
 ( - Laravel, MySQL) Tj
 0 -14 Td
-(\225  ) Tj
+(\276  ) Tj
 /F2 10 Tf
 (Quanta Accounting Software) Tj
 /F1 10 Tf
 ( - Laravel, MySQL) Tj
 0 -14 Td
-(\225  ) Tj
+(\276  ) Tj
 /F2 10 Tf
 (Legal Management System) Tj
 /F1 10 Tf
 ( - Laravel, MySQL) Tj
 0 -14 Td
-(\225  ) Tj
+(\276  ) Tj
 /F2 10 Tf
 (School Management System) Tj
 /F1 10 Tf
@@ -199,16 +249,31 @@ ET
 BT
 /F2 13 Tf
 0.0 0.8 0.9 rg
-72 92 Td
+72 580 Td
 (CERTIFICATIONS) Tj
 ET
 0.0 0.8 0.9 rg
-72 88 110 1 re f
+72 576 110 1 re f
 BT
 /F1 10 Tf
 0.2 0.2 0.2 rg
-72 72 Td
-(\225  SQL Database Certification  |  Full-Stack Web Development) Tj
+72 560 Td
+(\276  SQL Database Certification  |  Full-Stack Web Development) Tj
+ET
+% Section: References
+BT
+/F2 13 Tf
+0.0 0.8 0.9 rg
+72 520 Td
+(REFERENCES) Tj
+ET
+0.0 0.8 0.9 rg
+72 516 90 1 re f
+BT
+/F1 10 Tf
+0.2 0.2 0.2 rg
+72 500 Td
+(Available upon request) Tj
 ET
 endstream
 endobj
@@ -218,21 +283,27 @@ endobj
 6 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique >>
+endobj
 7 0 obj
 << /Type /ExtGState /ca 1.0 /CA 1.0 >>
 endobj
 xref
-0 8
+0 11
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
-0000000115 00000 n 
-0000000282 00000 n 
-0000004536 00000 n 
-0000004603 00000 n 
-0000004674 00000 n 
+0000000119 00000 n 
+0000000306 00000 n 
+0000008560 00000 n 
+0000008627 00000 n 
+0000008768 00000 n 
+0000008160 00000 n 
+0000008694 00000 n 
+0000008350 00000 n 
 trailer
-<< /Size 8 /Root 1 0 R >>
+<< /Size 11 /Root 1 0 R >>
 startxref
-4734
+8828
 %%EOF
