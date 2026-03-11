@@ -18,16 +18,17 @@ function getBaseFromHomepage(): string {
   }
 }
 
-export default defineConfig(({ mode }) => ({
-  base: mode === "production" ? getBaseFromHomepage() : "/",
+export default defineConfig({
+  base: "/Eng_HMurinda-s_Portfolio/",
   server: {
     host: "::",
     port: 8080,
   },
-  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+  plugins: [react()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-}));
+});
+
