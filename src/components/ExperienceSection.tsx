@@ -47,7 +47,7 @@ const ExperienceSection = () => {
               <div
                 key={exp.role}
                 className={`relative pl-8 md:pl-0 mb-12 ${
-                  index % 2 === 0 ? "md:pr-[50%] md:text-right" : "md:pl-[50%]"
+                  index % 2 === 0 ? "md:pr-[10%] md:text-right" : "md:pl-[10%]"
                 }`}
               >
                 {/* Timeline Dot */}
