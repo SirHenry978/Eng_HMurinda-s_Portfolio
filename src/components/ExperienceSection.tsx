@@ -41,29 +41,23 @@ const ExperienceSection = () => {
           {/* Timeline */}
           <div className="relative">
             {/* Timeline Line */}
-            <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-primary via-primary/50 to-transparent transform md:-translate-x-1/2" />
+            <div className="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-primary via-primary/50 to-transparent" />
 
-            {experiences.map((exp, index) => (
+            {experiences.map((exp) => (
               <div
                 key={exp.role}
-                className={`relative pl-8 md:pl-0 mb-12 ${
-                  index % 2 === 0 ? "md:pr-[10%] md:text-right" : "md:pl-[10%]"
-                }`}
+                className="relative pl-10 mb-12"
               >
                 {/* Timeline Dot */}
                 <div
-                  className={`absolute left-0 md:left-1/2 w-4 h-4 rounded-full bg-primary border-4 border-background transform md:-translate-x-1/2 animate-pulse-glow`}
+                  className="absolute left-0 w-4 h-4 rounded-full bg-primary border-4 border-background transform -translate-x-1/2 animate-pulse-glow"
                   style={{ top: "6px" }}
                 />
 
                 {/* Content Card */}
-                <div
-                  className={`p-6 rounded-xl bg-card border border-border hover:border-primary/50 transition-all duration-300 ${
-                    index % 2 === 0 ? "md:mr-8" : "md:ml-8"
-                  }`}
-                >
+                <div className="p-6 rounded-xl bg-card border border-border hover:border-primary/50 transition-all duration-300">
                   {/* Header */}
-                  <div className={`mb-4 ${index % 2 === 0 ? "md:text-right" : ""}`}>
+                  <div className="mb-4">
                     <h3 className="text-xl font-semibold text-foreground mb-1">
                       {exp.role}
                     </h3>
@@ -71,11 +65,7 @@ const ExperienceSection = () => {
                   </div>
 
                   {/* Meta */}
-                  <div
-                    className={`flex flex-wrap gap-4 text-sm text-muted-foreground mb-4 ${
-                      index % 2 === 0 ? "md:justify-end" : ""
-                    }`}
-                  >
+                  <div className="flex flex-wrap gap-4 text-sm text-muted-foreground mb-4">
                     <span className="inline-flex items-center gap-1">
                       <Calendar size={14} />
                       {exp.period}
@@ -87,22 +77,16 @@ const ExperienceSection = () => {
                   </div>
 
                   {/* Description */}
-                  <p
-                    className={`text-muted-foreground mb-4 ${
-                      index % 2 === 0 ? "md:text-right" : ""
-                    }`}
-                  >
+                  <p className="text-muted-foreground mb-4">
                     {exp.description}
                   </p>
 
                   {/* Achievements */}
-                  <ul className={`space-y-2 ${index % 2 === 0 ? "md:text-right" : ""}`}>
+                  <ul className="space-y-2">
                     {exp.achievements.map((achievement, i) => (
                       <li
                         key={i}
-                        className={`flex items-start gap-2 text-sm text-muted-foreground ${
-                          index % 2 === 0 ? "md:flex-row-reverse" : ""
-                        }`}
+                        className="flex items-start gap-2 text-sm text-muted-foreground"
                       >
                         <Briefcase size={14} className="flex-shrink-0 text-primary mt-0.5" />
                         <span>{achievement}</span>
