@@ -23,6 +23,22 @@ const experiences = [
       "Built enterprise web systems using Laravel, React, Vue.js, Flutter (mobile), and C# (desktop)",
     ],
   },
+  {
+    role: "IT Support & Systems Administration Intern",
+    company: "Attachment Company",
+    period: "October 2022 - August 2023",
+    location: "Zimbabwe",
+    description: "Provided comprehensive IT support and systems administration during industrial attachment.",
+    achievements: [
+      "Provided technical support for hardware and software issues, troubleshooting desktops, laptops, and peripherals for staff",
+      "Performed operating system installations and updates, ensuring systems remained secure and up to date",
+      "Managed and supported corporate email systems, assisting users with account setup, configuration, and troubleshooting",
+      "Assisted with network configuration and maintenance, including monitoring connectivity, troubleshooting LAN issues, and supporting routers and switches",
+      "Supported database server administration, helping maintain server availability, backups, and performance monitoring",
+      "Ensured system security and data integrity by applying updates, monitoring system logs, and assisting with routine maintenance",
+      "Documented IT issues and resolutions to improve technical support efficiency and knowledge sharing",
+    ],
+  },
 ];
 
 const ExperienceSection = () => {
