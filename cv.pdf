@@ -3,139 +3,304 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [3 0 R 8 0 R] /Count 2 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 9 0 R >> /ExtGState << /GS1 7 0 R >> >> >>
 endobj
 4 0 obj
-<< /Length 3400 >>
+<< /Length 5800 >>
 stream
+% Header background bar
+q
+/GS1 gs
+0.06 0.15 0.22 rg
+0 712 612 80 re f
+Q
+% Accent line
+0.0 0.8 0.9 rg
+0 710 612 3 re f
+0.0 0.0 0.0 rg
 BT
-/F2 24 Tf
-72 760 Td
-0 Tc
+/F2 26 Tf
+1 1 1 rg
+72 745 Td
 (HENRY NYASHA MURINDA) Tj
-0 -24 Td
-/F1 12 Tf
-(Full-Stack Software Engineer) Tj
-0 -18 Td
-/F1 10 Tf
-(henrymrinda@gmail.com | 0782828542 / 0713777002 | Zimbabwe) Tj
-0 -32 Td
-/F2 14 Tf
+ET
+% Curriculum Vitae subheading
+BT
+/F3 14 Tf
+0.7 0.9 1.0 rg
+72 723 Td
+(Curriculum Vitae) Tj
+ET
+BT
+/F1 13 Tf
+0.7 0.9 1.0 rg
+220 723 Td
+(|  Full-Stack Software Engineer) Tj
+ET
+% Contact info bar
+0.08 0.18 0.26 rg
+0 670 612 38 re f
+BT
+/F1 9 Tf
+0.75 0.85 0.95 rg
+72 685 Td
+(henrymrinda@gmail.com  |  0782828542 / 0713777002  |  No. 4153 Chikanga 2, Mutare, Zimbabwe  |  https://sirhenry978.github.io/Eng_HMurinda-s_Portfolio/) Tj
+ET
+% Section: Professional Summary
+BT
+/F2 13 Tf
+0.0 0.8 0.9 rg
+72 645 Td
 (PROFESSIONAL SUMMARY) Tj
-0 -18 Td
+ET
+0.0 0.8 0.9 rg
+72 641 168 1 re f
+BT
 /F1 10 Tf
-(Results-driven full-stack software engineer with 2+ years of experience) Tj
+0.2 0.2 0.2 rg
+72 625 Td
+(Results-driven full-stack software engineer with 2+ years of experience building enterprise-grade) Tj
 0 -14 Td
-(building enterprise-grade web applications and AI-powered solutions.) Tj
+(web applications and AI-powered solutions. Specializing in backend systems, web applications,) Tj
 0 -14 Td
-(Specializing in backend systems, web applications, and intelligent chatbots.) Tj
-0 -28 Td
-/F2 14 Tf
+(and intelligent chatbots.) Tj
+ET
+% Section: Work Experience
+BT
+/F2 13 Tf
+0.0 0.8 0.9 rg
+72 575 Td
 (WORK EXPERIENCE) Tj
-0 -20 Td
+ET
+0.0 0.8 0.9 rg
+72 571 140 1 re f
+BT
 /F2 11 Tf
-(Software Developer Graduate Trainee | Melsoft Private Limited) Tj
-0 -14 Td
+0.15 0.15 0.15 rg
+72 555 Td
+(Software Developer Graduate Trainee  |  Melsoft Private Limited) Tj
 /F1 10 Tf
-(2024 - Present | Zimbabwe) Tj
-0 -16 Td
+0.4 0.4 0.4 rg
+0 -15 Td
+(2024 - Present  |  Zimbabwe) Tj
 /F1 10 Tf
-(Built enterprise web systems using Laravel, React, and Vue.js) Tj
+0.2 0.2 0.2 rg
+0 -18 Td
+(❦  Designed and developed web-based management systems using PHP, Laravel, and CodeIgniter) Tj
 0 -14 Td
-(Designed and implemented RESTful APIs for seamless data integration) Tj
+(❦  Built and maintained school management modules: fees, exams, homework, library, reporting) Tj
 0 -14 Td
-(Integrated and optimized SQL databases for performance and scalability) Tj
+(❦  Implemented financial reporting: Income Statement, Trial Balance, General Ledger, Balance Sheet) Tj
 0 -14 Td
-(Developed AI chatbots for automated customer support and lead generation) Tj
+(❦  Developed AJAX-powered features to improve system performance and user experience) Tj
 0 -14 Td
-(Managed Git-based version control and collaborative development) Tj
+(❦  Created dynamic reporting: Age Analysis, Outstanding Fee Reports, Rent Collection Reports) Tj
 0 -14 Td
-(Network setup, troubleshooting, trunking, and configuration) Tj
-0 -28 Td
-/F2 14 Tf
+(❦  Integrated database-driven dashboards for real-time financial and operational data) Tj
+0 -14 Td
+(❦  Designed and optimized MySQL database structures for performance and data integrity) Tj
+0 -14 Td
+(❦  Developed RESTful APIs and backend services for modern web applications) Tj
+0 -14 Td
+(❦  Implemented secure authentication systems and role-based access control) Tj
+0 -14 Td
+(❦  Deployed and maintained web applications on cPanel with HTTPS security) Tj
+0 -14 Td
+(❦  Developed AI chatbots for automated customer support and lead generation) Tj
+0 -14 Td
+(❦  Collaborated with clients to gather requirements and deliver scalable solutions) Tj
+0 -14 Td
+(❦  Built enterprise web systems using Laravel, React, and Vue.js) Tj
+0 -14 Td
+(❦  Managed Git-based version control and collaborative development workflows) Tj
+ET
+% Internship Entry
+BT
+/F2 11 Tf
+0.15 0.15 0.15 rg
+72 345 Td
+(IT Support & Systems Administration Intern  |  Mutare City Council) Tj
+/F1 10 Tf
+0.4 0.4 0.4 rg
+0 -15 Td
+(October 2022 - August 2023  |  Zimbabwe) Tj
+/F1 10 Tf
+0.2 0.2 0.2 rg
+0 -18 Td
+(❦  Provided technical support for hardware and software issues, troubleshooting desktops, laptops, and peripherals) Tj
+0 -14 Td
+(❦  Performed operating system installations and updates, ensuring systems remained secure and up to date) Tj
+0 -14 Td
+(❦  Managed and supported corporate email systems, assisting users with account setup and configuration) Tj
+0 -14 Td
+(❦  Assisted with network configuration and maintenance, including monitoring connectivity and troubleshooting LAN issues) Tj
+0 -14 Td
+(❦  Supported database server administration, helping maintain server availability, backups, and performance monitoring) Tj
+0 -14 Td
+(❦  Ensured system security and data integrity by applying updates and monitoring system logs) Tj
+0 -14 Td
+(❦  Documented IT issues and resolutions to improve technical support efficiency and knowledge sharing) Tj
+ET
+% Section: Education
+BT
+/F2 13 Tf
+0.0 0.8 0.9 rg
+72 180 Td
 (EDUCATION) Tj
-0 -18 Td
+ET
+0.0 0.8 0.9 rg
+72 176 80 1 re f
+BT
 /F2 11 Tf
-(Bachelor of Science Honors Degree in Computer Science - 2.1 Class Honors) Tj
-0 -16 Td
+0.15 0.15 0.15 rg
+72 160 Td
+(Bachelor of Science in Computer Science - 2.1 Class Honors) Tj
 /F1 10 Tf
+0.4 0.4 0.4 rg
+0 -15 Td
 (Midlands State University, Zimbabwe) Tj
-0 -28 Td
-/F2 14 Tf
+ET
+% Section: Technical Skills
+BT
+/F2 13 Tf
+0.0 0.8 0.9 rg
+72 122 Td
 (TECHNICAL SKILLS) Tj
-0 -18 Td
+ET
+0.0 0.8 0.9 rg
+72 118 130 1 re f
+BT
 /F1 10 Tf
-(Backend: Laravel, PHP, CodeIgniter, Python, Django) Tj
+0.2 0.2 0.2 rg
+72 102 Td
+(❦  Backend: Laravel, PHP, CodeIgniter, Python, Django, C#) Tj
 0 -14 Td
-(Frontend: React, Vue.js, HTML5, CSS3, Tailwind CSS, TypeScript) Tj
+(❦  Frontend: React, Vue.js, HTML5, CSS3, Tailwind CSS, TypeScript) Tj
 0 -14 Td
-(Mobile: React Native, Cross-Platform Development) Tj
+(❦  Mobile: Flutter, React Native, Cross-Platform Development) Tj
 0 -14 Td
-(Database: SQL, PostgreSQL, MySQL, Database Design) Tj
+(❦  Desktop: C#, .NET, Windows Applications) Tj
 0 -14 Td
-(Tools: Git, GitHub, REST APIs, Node.js) Tj
+(❦  Database: SQL, PostgreSQL, MySQL, Database Design) Tj
 0 -14 Td
-(Networking: Network Setup, Troubleshooting, Trunking, Configuration) Tj
-0 -28 Td
+(❦  Tools: Git, GitHub, REST APIs, Node.js, AJAX) Tj
+0 -14 Td
+(❦  Security: RBAC, Audit Logs, Password Hashing, Session Security) Tj
+0 -14 Td
+(❦  DevOps: cPanel, VPS Setup, HTTPS, DB Migrations, Backup Strategy) Tj
+0 -14 Td
+(❦  Networking: Network Setup, Troubleshooting, Trunking, Configuration) Tj
+ET
+% Continued on page 2...
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 10 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 9 0 R >> /ExtGState << /GS1 7 0 R >> >> >>
+endobj
+10 0 obj
+<< /Length 2400 >>
+stream
+% Page 2 header bar
+q
+/GS1 gs
+0.06 0.15 0.22 rg
+0 752 612 40 re f
+Q
+0.0 0.8 0.9 rg
+0 750 612 3 re f
+BT
 /F2 14 Tf
+1 1 1 rg
+72 765 Td
+(HENRY NYASHA MURINDA  |  Curriculum Vitae) Tj
+ET
+% Section: Key Projects
+BT
+/F2 13 Tf
+0.0 0.8 0.9 rg
+72 720 Td
 (KEY PROJECTS) Tj
-0 -18 Td
-/F2 11 Tf
+ET
+0.0 0.8 0.9 rg
+72 716 100 1 re f
+BT
+/F1 10 Tf
+0.2 0.2 0.2 rg
+72 700 Td
+(❦  ) Tj
+/F2 10 Tf
+(FarmIQ) Tj
+/F1 10 Tf
+( - React, Laravel, MySQL \(Multi-Branch Farm Management\)) Tj
+0 -14 Td
+(❦  ) Tj
+/F2 10 Tf
 (QuickList WhatsApp Chatbot) Tj
 /F1 10 Tf
 ( - React, Python, Django) Tj
 0 -14 Td
-(Marketplace chatbot for buying/selling cars, properties, and services) Tj
-0 -18 Td
-/F2 11 Tf
+(❦  ) Tj
+/F2 10 Tf
 (QuickTap Commuter Chatbot) Tj
 /F1 10 Tf
 ( - React, Python, Django) Tj
 0 -14 Td
-(Transport payment system for operators, conductors, and passengers) Tj
-0 -18 Td
-/F2 11 Tf
+(❦  ) Tj
+/F2 10 Tf
 (Real Estate Management System) Tj
 /F1 10 Tf
 ( - Laravel, MySQL) Tj
 0 -14 Td
-(Property management platform with listings and reporting) Tj
-0 -18 Td
-/F2 11 Tf
+(❦  ) Tj
+/F2 10 Tf
 (Quanta Accounting Software) Tj
 /F1 10 Tf
 ( - Laravel, MySQL) Tj
 0 -14 Td
-(Comprehensive accounting system for financial management) Tj
-0 -18 Td
-/F2 11 Tf
+(❦  ) Tj
+/F2 10 Tf
 (Legal Management System) Tj
 /F1 10 Tf
 ( - Laravel, MySQL) Tj
 0 -14 Td
-(Case tracking and document management for law firms) Tj
-0 -18 Td
-/F2 11 Tf
+(❦  ) Tj
+/F2 10 Tf
 (School Management System) Tj
 /F1 10 Tf
 ( - CodeIgniter, MySQL) Tj
-0 -14 Td
-(Student enrollment, grading, and administrative tools) Tj
-0 -18 Td
-/F2 11 Tf
-(Follow my portfolio) Tj
-/F1 10 Tf
-( @ https://sirhenry978.github.io/Eng_HMurinda-s_Portfolio/) Tj
-
-0 -28 Td
-/F2 14 Tf
+ET
+% Section: Certifications
+BT
+/F2 13 Tf
+0.0 0.8 0.9 rg
+72 580 Td
 (CERTIFICATIONS) Tj
-0 -18 Td
+ET
+0.0 0.8 0.9 rg
+72 576 110 1 re f
+BT
 /F1 10 Tf
-(SQL Database Certification | Full-Stack Web Development) Tj
+0.2 0.2 0.2 rg
+72 560 Td
+(❦  SQL Database Certification  |  Full-Stack Web Development) Tj
+ET
+% Section: References
+BT
+/F2 13 Tf
+0.0 0.8 0.9 rg
+72 520 Td
+(REFERENCES) Tj
+ET
+0.0 0.8 0.9 rg
+72 516 90 1 re f
+BT
+/F1 10 Tf
+0.2 0.2 0.2 rg
+72 500 Td
+(Available upon request) Tj
 ET
 endstream
 endobj
@@ -145,17 +310,27 @@ endobj
 6 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique >>
+endobj
+7 0 obj
+<< /Type /ExtGState /ca 1.0 /CA 1.0 >>
+endobj
 xref
-0 7
+0 11
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
-0000000115 00000 n 
-0000000230 00000 n 
-0000003684 00000 n 
-0000003751 00000 n 
+0000000119 00000 n 
+0000000306 00000 n 
+0000008560 00000 n 
+0000008627 00000 n 
+0000008768 00000 n 
+0000008160 00000 n 
+0000008694 00000 n 
+0000008350 00000 n 
 trailer
-<< /Size 7 /Root 1 0 R >>
+<< /Size 11 /Root 1 0 R >>
 startxref
-3824
+8828
 %%EOF
