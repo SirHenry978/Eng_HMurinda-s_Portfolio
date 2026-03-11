@@ -89,47 +89,74 @@ BT
 /F1 10 Tf
 0.2 0.2 0.2 rg
 0 -18 Td
-(\276  Designed and developed web-based management systems using PHP, Laravel, and CodeIgniter) Tj
+(❦  Designed and developed web-based management systems using PHP, Laravel, and CodeIgniter) Tj
 0 -14 Td
-(\276  Built and maintained school management modules: fees, exams, homework, library, reporting) Tj
+(❦  Built and maintained school management modules: fees, exams, homework, library, reporting) Tj
 0 -14 Td
-(\276  Implemented financial reporting: Income Statement, Trial Balance, General Ledger, Balance Sheet) Tj
+(❦  Implemented financial reporting: Income Statement, Trial Balance, General Ledger, Balance Sheet) Tj
 0 -14 Td
-(\276  Developed AJAX-powered features to improve system performance and user experience) Tj
+(❦  Developed AJAX-powered features to improve system performance and user experience) Tj
 0 -14 Td
-(\276  Created dynamic reporting: Age Analysis, Outstanding Fee Reports, Rent Collection Reports) Tj
+(❦  Created dynamic reporting: Age Analysis, Outstanding Fee Reports, Rent Collection Reports) Tj
 0 -14 Td
-(\276  Integrated database-driven dashboards for real-time financial and operational data) Tj
+(❦  Integrated database-driven dashboards for real-time financial and operational data) Tj
 0 -14 Td
-(\276  Designed and optimized MySQL database structures for performance and data integrity) Tj
+(❦  Designed and optimized MySQL database structures for performance and data integrity) Tj
 0 -14 Td
-(\276  Developed RESTful APIs and backend services for modern web applications) Tj
+(❦  Developed RESTful APIs and backend services for modern web applications) Tj
 0 -14 Td
-(\276  Implemented secure authentication systems and role-based access control) Tj
+(❦  Implemented secure authentication systems and role-based access control) Tj
 0 -14 Td
-(\276  Deployed and maintained web applications on cPanel with HTTPS security) Tj
+(❦  Deployed and maintained web applications on cPanel with HTTPS security) Tj
 0 -14 Td
-(\276  Developed AI chatbots for automated customer support and lead generation) Tj
+(❦  Developed AI chatbots for automated customer support and lead generation) Tj
 0 -14 Td
-(\276  Collaborated with clients to gather requirements and deliver scalable solutions) Tj
+(❦  Collaborated with clients to gather requirements and deliver scalable solutions) Tj
 0 -14 Td
-(\276  Built enterprise web systems using Laravel, React, and Vue.js) Tj
+(❦  Built enterprise web systems using Laravel, React, and Vue.js) Tj
 0 -14 Td
-(\276  Managed Git-based version control and collaborative development workflows) Tj
+(❦  Managed Git-based version control and collaborative development workflows) Tj
+ET
+% Internship Entry
+BT
+/F2 11 Tf
+0.15 0.15 0.15 rg
+72 345 Td
+(IT Support & Systems Administration Intern  |  Mutare City Council) Tj
+/F1 10 Tf
+0.4 0.4 0.4 rg
+0 -15 Td
+(October 2022 - August 2023  |  Zimbabwe) Tj
+/F1 10 Tf
+0.2 0.2 0.2 rg
+0 -18 Td
+(❦  Provided technical support for hardware and software issues, troubleshooting desktops, laptops, and peripherals) Tj
+0 -14 Td
+(❦  Performed operating system installations and updates, ensuring systems remained secure and up to date) Tj
+0 -14 Td
+(❦  Managed and supported corporate email systems, assisting users with account setup and configuration) Tj
+0 -14 Td
+(❦  Assisted with network configuration and maintenance, including monitoring connectivity and troubleshooting LAN issues) Tj
+0 -14 Td
+(❦  Supported database server administration, helping maintain server availability, backups, and performance monitoring) Tj
+0 -14 Td
+(❦  Ensured system security and data integrity by applying updates and monitoring system logs) Tj
+0 -14 Td
+(❦  Documented IT issues and resolutions to improve technical support efficiency and knowledge sharing) Tj
 ET
 % Section: Education
 BT
 /F2 13 Tf
 0.0 0.8 0.9 rg
-72 298 Td
+72 180 Td
 (EDUCATION) Tj
 ET
 0.0 0.8 0.9 rg
-72 294 80 1 re f
+72 176 80 1 re f
 BT
 /F2 11 Tf
 0.15 0.15 0.15 rg
-72 278 Td
+72 160 Td
 (Bachelor of Science in Computer Science - 2.1 Class Honors) Tj
 /F1 10 Tf
 0.4 0.4 0.4 rg
@@ -140,32 +167,32 @@ ET
 BT
 /F2 13 Tf
 0.0 0.8 0.9 rg
-72 240 Td
+72 122 Td
 (TECHNICAL SKILLS) Tj
 ET
 0.0 0.8 0.9 rg
-72 236 130 1 re f
+72 118 130 1 re f
 BT
 /F1 10 Tf
 0.2 0.2 0.2 rg
-72 220 Td
-(\276  Backend: Laravel, PHP, CodeIgniter, Python, Django, C#) Tj
+72 102 Td
+(❦  Backend: Laravel, PHP, CodeIgniter, Python, Django, C#) Tj
 0 -14 Td
-(\276  Frontend: React, Vue.js, HTML5, CSS3, Tailwind CSS, TypeScript) Tj
+(❦  Frontend: React, Vue.js, HTML5, CSS3, Tailwind CSS, TypeScript) Tj
 0 -14 Td
-(\276  Mobile: Flutter, React Native, Cross-Platform Development) Tj
+(❦  Mobile: Flutter, React Native, Cross-Platform Development) Tj
 0 -14 Td
-(\276  Desktop: C#, .NET, Windows Applications) Tj
+(❦  Desktop: C#, .NET, Windows Applications) Tj
 0 -14 Td
-(\276  Database: SQL, PostgreSQL, MySQL, Database Design) Tj
+(❦  Database: SQL, PostgreSQL, MySQL, Database Design) Tj
 0 -14 Td
-(\276  Tools: Git, GitHub, REST APIs, Node.js, AJAX) Tj
+(❦  Tools: Git, GitHub, REST APIs, Node.js, AJAX) Tj
 0 -14 Td
-(\276  Security: RBAC, Audit Logs, Password Hashing, Session Security) Tj
+(❦  Security: RBAC, Audit Logs, Password Hashing, Session Security) Tj
 0 -14 Td
-(\276  DevOps: cPanel, VPS Setup, HTTPS, DB Migrations, Backup Strategy) Tj
+(❦  DevOps: cPanel, VPS Setup, HTTPS, DB Migrations, Backup Strategy) Tj
 0 -14 Td
-(\276  Networking: Network Setup, Troubleshooting, Trunking, Configuration) Tj
+(❦  Networking: Network Setup, Troubleshooting, Trunking, Configuration) Tj
 ET
 % Continued on page 2...
 endstream
@@ -203,43 +230,43 @@ BT
 /F1 10 Tf
 0.2 0.2 0.2 rg
 72 700 Td
-(\276  ) Tj
+(❦  ) Tj
 /F2 10 Tf
 (FarmIQ) Tj
 /F1 10 Tf
 ( - React, Laravel, MySQL \(Multi-Branch Farm Management\)) Tj
 0 -14 Td
-(\276  ) Tj
+(❦  ) Tj
 /F2 10 Tf
 (QuickList WhatsApp Chatbot) Tj
 /F1 10 Tf
 ( - React, Python, Django) Tj
 0 -14 Td
-(\276  ) Tj
+(❦  ) Tj
 /F2 10 Tf
 (QuickTap Commuter Chatbot) Tj
 /F1 10 Tf
 ( - React, Python, Django) Tj
 0 -14 Td
-(\276  ) Tj
+(❦  ) Tj
 /F2 10 Tf
 (Real Estate Management System) Tj
 /F1 10 Tf
 ( - Laravel, MySQL) Tj
 0 -14 Td
-(\276  ) Tj
+(❦  ) Tj
 /F2 10 Tf
 (Quanta Accounting Software) Tj
 /F1 10 Tf
 ( - Laravel, MySQL) Tj
 0 -14 Td
-(\276  ) Tj
+(❦  ) Tj
 /F2 10 Tf
 (Legal Management System) Tj
 /F1 10 Tf
 ( - Laravel, MySQL) Tj
 0 -14 Td
-(\276  ) Tj
+(❦  ) Tj
 /F2 10 Tf
 (School Management System) Tj
 /F1 10 Tf
@@ -258,7 +285,7 @@ BT
 /F1 10 Tf
 0.2 0.2 0.2 rg
 72 560 Td
-(\276  SQL Database Certification  |  Full-Stack Web Development) Tj
+(❦  SQL Database Certification  |  Full-Stack Web Development) Tj
 ET
 % Section: References
 BT

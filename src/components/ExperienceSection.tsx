@@ -25,7 +25,7 @@ const experiences = [
   },
   {
     role: "IT Support & Systems Administration Intern",
-    company: "Attachment Company",
+    company: "Mutare City Council",
     period: "October 2022 - August 2023",
     location: "Zimbabwe",
     description: "Provided comprehensive IT support and systems administration during industrial attachment.",
