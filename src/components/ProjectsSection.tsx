@@ -1,4 +1,4 @@
-import { Building2, GraduationCap, Scale, MessageSquare, Zap, ExternalLink, Globe, Calculator, Leaf } from "lucide-react";
+import { Building2, GraduationCap, Scale, MessageSquare, Zap, ExternalLink, Globe, Calculator, Leaf, Network } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 interface ProjectLink {
@@ -82,6 +82,17 @@ const projects = [
     color: "from-amber-500/20 to-orange-500/20",
     demoLinks: [
       { label: "View Demo", url: "https://melsoftzim.co.zw/melsoft/public" }
+    ] as ProjectLink[],
+    isExternal: true,
+  },
+  {
+    title: "NetScanPro",
+    description: "Enterprise network scanning web app that maps network setups, returning connected devices, IP addresses, operating systems, and full network topology. Built for IT teams to audit and visualize their infrastructure.",
+    icon: Network,
+    tags: ["React", "Django", "Python", "Nmap"],
+    color: "from-sky-500/20 to-cyan-500/20",
+    demoLinks: [
+      { label: "View Website", url: "https://xclusiveitech.github.io/netscanpro/" }
     ] as ProjectLink[],
     isExternal: true,
   },
