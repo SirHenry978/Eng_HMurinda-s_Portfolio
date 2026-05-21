@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Download, Eye } from "lucide-react";
+import CVPreviewModal from "./CVPreviewModal";
 
 const navLinks = [
   { name: "About", href: "#about" },
@@ -18,24 +19,10 @@ const Navbar = () => {
   const cvUrl = `${import.meta.env.BASE_URL}cv.pdf`;
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
+    const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  useEffect(() => {
-    if (!previewOpen) return;
-    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setPreviewOpen(false);
-    window.addEventListener("keydown", onKey);
-    const prevOverflow = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
-    return () => {
-      window.removeEventListener("keydown", onKey);
-      document.body.style.overflow = prevOverflow;
-    };
-  }, [previewOpen]);
 
   const openPreview = () => {
     setPreviewOpen(true);
@@ -143,44 +130,11 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {/* CV Preview Modal */}
-      {previewOpen && (
-        <div
-          className="fixed inset-0 z-[100] bg-background/80 backdrop-blur-sm flex items-center justify-center p-4 animate-fade-in"
-          onClick={() => setPreviewOpen(false)}
-        >
-          <div
-            className="relative w-full max-w-5xl h-[90vh] bg-card border border-border rounded-xl shadow-2xl overflow-hidden flex flex-col"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="flex items-center justify-between px-4 py-3 border-b border-border">
-              <h3 className="text-sm font-semibold text-foreground">CV Preview</h3>
-              <div className="flex items-center gap-2">
-                <a
-                  href={cvUrl}
-                  download
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-md border border-primary text-primary hover:bg-primary/10 transition-colors"
-                >
-                  <Download size={14} />
-                  Download
-                </a>
-                <button
-                  onClick={() => setPreviewOpen(false)}
-                  className="p-1.5 rounded-md text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
-                  aria-label="Close preview"
-                >
-                  <X size={18} />
-                </button>
-              </div>
-            </div>
-            <iframe
-              src={cvUrl}
-              title="CV Preview"
-              className="flex-1 w-full bg-white"
-            />
-          </div>
-        </div>
-      )}
+      <CVPreviewModal
+        open={previewOpen}
+        onClose={() => setPreviewOpen(false)}
+        fileUrl={cvUrl}
+      />
     </>
   );
 };
