@@ -2,7 +2,7 @@ import { Briefcase, Calendar, MapPin } from "lucide-react";
 
 const experiences = [
   {
-    role: "Software Developer Graduate Trainee",
+    role: "Software Engineer Graduate Trainee",
     company: "Melsoft Private Limited",
     period: "2024 - Present",
     location: "Zimbabwe",
