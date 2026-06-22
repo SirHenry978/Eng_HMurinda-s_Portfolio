@@ -16,6 +16,24 @@ const Navbar = () => {
 
   const cvUrl = `${import.meta.env.BASE_URL}cv.pdf`;
 
+  const handleDownloadCV = async (e: React.MouseEvent) => {
+    e.preventDefault();
+    try {
+      const response = await fetch(cvUrl);
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "Henry_Murinda_CV.pdf";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+    } catch {
+      window.open(cvUrl, "_blank");
+    }
+  };
+
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
