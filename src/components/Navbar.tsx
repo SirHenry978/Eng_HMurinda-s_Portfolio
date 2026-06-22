@@ -16,6 +16,24 @@ const Navbar = () => {
 
   const cvUrl = `${import.meta.env.BASE_URL}cv.pdf`;
 
+  const handleDownloadCV = async (e: React.MouseEvent) => {
+    e.preventDefault();
+    try {
+      const response = await fetch(cvUrl);
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "Henry_Murinda_CV.pdf";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+    } catch {
+      window.open(cvUrl, "_blank");
+    }
+  };
+
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
@@ -47,14 +65,13 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <a
-              href={cvUrl}
-              download
-              className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-lg border border-primary text-primary hover:bg-primary/10 transition-colors duration-200"
+            <button
+              onClick={handleDownloadCV}
+              className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-lg border border-primary text-primary hover:bg-primary/10 transition-colors duration-200 cursor-pointer"
             >
               <Download size={16} />
               CV
-            </a>
+            </button>
             <a
               href="#contact"
               className="px-4 py-2 text-sm font-medium rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors duration-200"
@@ -86,15 +103,16 @@ const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <a
-                href={cvUrl}
-                download
-                className="inline-flex w-fit items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-lg border border-primary text-primary hover:bg-primary/10 transition-colors duration-200"
-                onClick={() => setIsOpen(false)}
+              <button
+                onClick={(e) => {
+                  setIsOpen(false);
+                  handleDownloadCV(e);
+                }}
+                className="inline-flex w-fit items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-lg border border-primary text-primary hover:bg-primary/10 transition-colors duration-200 cursor-pointer"
               >
                 <Download size={16} />
                 Download CV
-              </a>
+              </button>
               <a
                 href="#contact"
                 className="inline-flex w-fit px-4 py-2 text-sm font-medium rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors duration-200"
