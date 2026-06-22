@@ -65,14 +65,13 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <a
-              href={cvUrl}
-              download
-              className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-lg border border-primary text-primary hover:bg-primary/10 transition-colors duration-200"
+            <button
+              onClick={handleDownloadCV}
+              className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-lg border border-primary text-primary hover:bg-primary/10 transition-colors duration-200 cursor-pointer"
             >
               <Download size={16} />
               CV
-            </a>
+            </button>
             <a
               href="#contact"
               className="px-4 py-2 text-sm font-medium rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors duration-200"
