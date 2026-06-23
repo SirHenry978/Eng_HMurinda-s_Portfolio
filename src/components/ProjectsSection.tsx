@@ -1,4 +1,4 @@
-import { Building2, GraduationCap, Scale, MessageSquare, Zap, ExternalLink, Globe, Calculator, Leaf, Network } from "lucide-react";
+import { Building2, GraduationCap, Scale, MessageSquare, Zap, ExternalLink, Globe, Calculator, Leaf, Network, Cpu } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 interface ProjectLink {
