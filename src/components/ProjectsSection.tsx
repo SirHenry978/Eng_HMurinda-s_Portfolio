@@ -107,6 +107,15 @@ const projects = [
     ] as ProjectLink[],
     isExternal: true,
   },
+  {
+    title: "Central Auto-Locking System",
+    description: "Hardware-based smart locking system that secures access via a 4x4 keypad and Bluetooth, with vibration detection for tamper alerts. On valid code entry the solenoid lock unlocks and a green LED lights; on wrong codes or vibration the buzzer sounds and the red LED lights. Powered by an Arduino Uno with an ESP32 for wireless control on a 12V power PCB.",
+    icon: Cpu,
+    tags: ["Arduino Uno", "ESP32", "Bluetooth", "Solenoid Lock", "Sensors"],
+    color: "from-orange-500/20 to-red-500/20",
+    demoLinks: [] as ProjectLink[],
+    isExternal: true,
+  },
 ];
 
 const ProjectsSection = () => {
