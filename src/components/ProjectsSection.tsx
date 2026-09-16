@@ -14,6 +14,7 @@ interface Project {
   tags: string[];
   color: string;
   demoLinks: ProjectLink[];
+  isExternal: boolean;
 }
 
 const projects: Project[] = [
