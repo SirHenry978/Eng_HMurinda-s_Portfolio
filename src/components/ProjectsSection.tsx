@@ -1,7 +1,6 @@
 import { Building2, GraduationCap, Scale, MessageSquare, Zap, ExternalLink, Globe, Calculator, Leaf, Network, Cpu, Bus } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import afriTransitDashboard from "@/assets/afritransit/Screenshot_63-2.png.asset.json";
 
 interface ProjectLink {
   label: string;
@@ -126,7 +125,7 @@ const projects: Project[] = [
     icon: Bus,
     tags: ["React", "Laravel", "MySQL", "Role Permissions"],
     color: "from-yellow-500/20 to-amber-500/20",
-    image: afriTransitDashboard.url,
+    
     demoLinks: [
       { label: "View Demo", url: "/afritransit" }
     ] as ProjectLink[],
@@ -178,13 +177,6 @@ const ProjectsSection = () => {
                 <div className={`absolute inset-0 bg-gradient-to-br ${project.color} opacity-0 group-hover:opacity-100 transition-opacity duration-300`} />
                 
                 <div className="relative z-10 p-6">
-                  {project.image && (
-                    <img
-                      src={project.image}
-                      alt={`${project.title} project screen`}
-                      className="mb-5 aspect-video w-full rounded-lg border border-border object-cover object-top"
-                    />
-                  )}
                   {/* Icon */}
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                     <project.icon className="text-primary" size={24} />
