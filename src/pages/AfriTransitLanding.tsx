@@ -1,5 +1,6 @@
 import { ArrowLeft, Bus, CalendarClock, ChartNoAxesCombined, ShieldCheck, Users } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import dashboardAsset from "@/assets/afritransit/Screenshot_63-2.png.asset.json";
 import routesAsset from "@/assets/afritransit/Screenshot_64.png.asset.json";
@@ -66,7 +67,12 @@ const features = [
   { icon: Users, title: "Staff and customers", text: "Central management for employees, passengers and their activity." },
 ];
 
-const AfriTransitLanding = () => (
+const AfriTransitLanding = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "instant" });
+  }, []);
+
+  return (
   <main className="min-h-screen bg-background">
     <section className="border-b border-border px-4 py-16 md:py-24">
       <div className="container-custom">
@@ -137,6 +143,7 @@ const AfriTransitLanding = () => (
       </div>
     </section>
   </main>
-);
+  );
+};
 
 export default AfriTransitLanding;
