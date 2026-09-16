@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import QuickListLanding from "./pages/QuickListLanding";
 import QuickTapLanding from "./pages/QuickTapLanding";
+import AfriTransitLanding from "./pages/AfriTransitLanding";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +21,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/quicklist" element={<QuickListLanding />} />
           <Route path="/quicktap" element={<QuickTapLanding />} />
+          <Route path="/afritransit" element={<AfriTransitLanding />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
