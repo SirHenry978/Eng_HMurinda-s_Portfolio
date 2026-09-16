@@ -1,4 +1,5 @@
 import { Building2, GraduationCap, Scale, MessageSquare, Zap, ExternalLink, Globe, Calculator, Leaf, Network, Cpu, Bus } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import afriTransitDashboard from "@/assets/afritransit/Screenshot_63-2.png.asset.json";
 
@@ -7,7 +8,18 @@ interface ProjectLink {
   url: string;
 }
 
-const projects = [
+interface Project {
+  title: string;
+  description: string;
+  icon: LucideIcon;
+  tags: string[];
+  color: string;
+  demoLinks: ProjectLink[];
+  isExternal: boolean;
+  image?: string;
+}
+
+const projects: Project[] = [
   {
     title: "Real Estate Management System",
     description: "A full-stack system for managing properties, tenants, rent payments, and financial reports. Built with modern web technologies for seamless property management.",
