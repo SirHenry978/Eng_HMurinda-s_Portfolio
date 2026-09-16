@@ -1,4 +1,4 @@
-import { Building2, GraduationCap, Scale, MessageSquare, Zap, ExternalLink, Globe, Calculator, Leaf, Network, Cpu } from "lucide-react";
+import { Building2, GraduationCap, Scale, MessageSquare, Zap, ExternalLink, Globe, Calculator, Leaf, Network, Cpu, Bus } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 interface ProjectLink {
@@ -105,6 +105,15 @@ const projects = [
     demoLinks: [
       { label: "View Demo", url: "https://sirhenry978.github.io/green-acre-management/" }
     ] as ProjectLink[],
+    isExternal: true,
+  },
+  {
+    title: "AfriTransit Pro",
+    description: "A bus booking platform where clients register, browse routes and timetables, pick seats and pay online. A separate staff portal lets admins, booking officers, drivers and conductors sign in with role-based permissions, covering bookings, customers, buses, drivers, accounting and reports.",
+    icon: Bus,
+    tags: ["React", "Laravel", "MySQL", "Role Permissions"],
+    color: "from-yellow-500/20 to-amber-500/20",
+    demoLinks: [] as ProjectLink[],
     isExternal: true,
   },
   {
