@@ -2,16 +2,16 @@ import { ArrowLeft, Bus, CalendarClock, ChartNoAxesCombined, ShieldCheck, Users 
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import dashboardAsset from "@/assets/afritransit/Screenshot_63-2.png";
-import routesAsset from "@/assets/afritransit/Screenshot_64.png";
-import customersAsset from "@/assets/afritransit/Screenshot_65.png";
-import busesAsset from "@/assets/afritransit/Screenshot_66.png";
-import staffAsset from "@/assets/afritransit/Screenshot_67.png";
-import addStaffAsset from "@/assets/afritransit/Screenshot_68.png";
-import permissionsAsset from "@/assets/afritransit/Screenshot_69.png";
-import accountingAsset from "@/assets/afritransit/Screenshot_70.png";
-import ledgerAsset from "@/assets/afritransit/Screenshot_71.png";
-import reportsAsset from "@/assets/afritransit/Screenshot_76.png";
+import dashboard from "@/assets/afritransit/Screenshot_63-2.png";
+import routes from "@/assets/afritransit/Screenshot_64.png";
+import customers from "@/assets/afritransit/Screenshot_65.png";
+import buses from "@/assets/afritransit/Screenshot_66.png";
+import staff from "@/assets/afritransit/Screenshot_67.png";
+import addStaff from "@/assets/afritransit/Screenshot_68.png";
+import permissions from "@/assets/afritransit/Screenshot_69.png";
+import accounting from "@/assets/afritransit/Screenshot_70.png";
+import ledger from "@/assets/afritransit/Screenshot_71.png";
+import reports from "@/assets/afritransit/Screenshot_76.png";
 
 const gallery = [
   {
