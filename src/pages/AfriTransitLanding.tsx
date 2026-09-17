@@ -59,6 +59,11 @@ const gallery = [
     title: "Payments ledger",
     description: "Review unpaid bookings and detailed transaction records for each reporting period.",
   },
+  {
+    image: reportsAsset.url,
+    title: "Reports dashboard",
+    description: "A consolidated reports view summarising bookings, customers, staff, buses, routes, invoices and receipts.",
+  },
 ];
 
 const features = [
