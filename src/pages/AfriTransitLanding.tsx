@@ -2,65 +2,65 @@ import { ArrowLeft, Bus, CalendarClock, ChartNoAxesCombined, ShieldCheck, Users 
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import dashboardAsset from "@/assets/afritransit/Screenshot_63-2.png.asset.json";
-import routesAsset from "@/assets/afritransit/Screenshot_64.png.asset.json";
-import customersAsset from "@/assets/afritransit/Screenshot_65.png.asset.json";
-import busesAsset from "@/assets/afritransit/Screenshot_66.png.asset.json";
-import staffAsset from "@/assets/afritransit/Screenshot_67.png.asset.json";
-import addStaffAsset from "@/assets/afritransit/Screenshot_68.png.asset.json";
-import permissionsAsset from "@/assets/afritransit/Screenshot_69.png.asset.json";
-import accountingAsset from "@/assets/afritransit/Screenshot_70.png.asset.json";
-import ledgerAsset from "@/assets/afritransit/Screenshot_71.png.asset.json";
-import reportsAsset from "@/assets/afritransit/Screenshot_76.png.asset.json";
+import dashboard from "@/assets/afritransit/Screenshot_63-2.png";
+import routes from "@/assets/afritransit/Screenshot_64.png";
+import customers from "@/assets/afritransit/Screenshot_65.png";
+import buses from "@/assets/afritransit/Screenshot_66.png";
+import staff from "@/assets/afritransit/Screenshot_67.png";
+import addStaff from "@/assets/afritransit/Screenshot_68.png";
+import permissions from "@/assets/afritransit/Screenshot_69.png";
+import accounting from "@/assets/afritransit/Screenshot_70.png";
+import ledger from "@/assets/afritransit/Screenshot_71.png";
+import reports from "@/assets/afritransit/Screenshot_76.png";
 
 const gallery = [
   {
-    image: dashboardAsset.url,
+    image: dashboard,
     title: "Operations dashboard",
     description: "A clear overview of bookings, revenue, buses, routes, staff and customers.",
   },
   {
-    image: routesAsset.url,
+    image: routes,
     title: "Routes and timetables",
     description: "Create routes with fares, travel times, intermediate stops and assigned crews.",
   },
   {
-    image: customersAsset.url,
+    image: customers,
     title: "Customer management",
     description: "Review passenger accounts, booking activity and account status from one place.",
   },
   {
-    image: busesAsset.url,
+    image: buses,
     title: "Fleet management",
     description: "Register buses, capacity and vehicle details, including an identifying photo.",
   },
   {
-    image: staffAsset.url,
+    image: staff,
     title: "Staff users",
     description: "Manage employee accounts and assign operational roles to each team member.",
   },
   {
-    image: addStaffAsset.url,
+    image: addStaff,
     title: "Staff onboarding",
     description: "Create protected staff accounts for administrators, officers, drivers and conductors.",
   },
   {
-    image: permissionsAsset.url,
+    image: permissions,
     title: "Role permissions",
     description: "Control access by role so every staff member sees only the tools they need.",
   },
   {
-    image: accountingAsset.url,
+    image: accounting,
     title: "Accounting overview",
     description: "Track income, expenses, refunds, invoices, receipts and outstanding fares.",
   },
   {
-    image: ledgerAsset.url,
+    image: ledger,
     title: "Payments ledger",
     description: "Review unpaid bookings and detailed transaction records for each reporting period.",
   },
   {
-    image: reportsAsset.url,
+    image: reports,
     title: "Reports dashboard",
     description: "A consolidated reports view summarising bookings, customers, staff, buses, routes, invoices and receipts.",
   },
@@ -104,7 +104,7 @@ const AfriTransitLanding = () => {
           </div>
 
           <figure className="overflow-hidden rounded-lg border border-border bg-card shadow-2xl">
-            <img src={dashboardAsset.url} alt="AfriTransit Pro staff dashboard" className="aspect-[16/9] w-full object-cover object-top" />
+            <img src={dashboard} alt="AfriTransit Pro staff dashboard" className="aspect-[16/9] w-full object-cover object-top" />
           </figure>
         </div>
       </div>
