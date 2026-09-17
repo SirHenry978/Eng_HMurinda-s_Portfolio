@@ -12,6 +12,7 @@ import permissions from "@/assets/afritransit/Screenshot_69.png";
 import accounting from "@/assets/afritransit/Screenshot_70.png";
 import ledger from "@/assets/afritransit/Screenshot_71.png";
 import reports from "@/assets/afritransit/Screenshot_76.png";
+import reportsPrintable from "@/assets/afritransit/Screenshot_75.png";
 
 const gallery = [
   {
@@ -63,6 +64,11 @@ const gallery = [
     image: reports,
     title: "Reports dashboard",
     description: "A consolidated reports view summarising bookings, customers, staff, buses, routes, invoices and receipts.",
+  },
+  {
+    image: reportsPrintable,
+    title: "Downloadable and printable reports",
+    description: "Every report — summary, bookings, customers, buses, staff, routes and invoices — can be previewed on screen, printed, or saved as a document.",
   },
 ];
 
