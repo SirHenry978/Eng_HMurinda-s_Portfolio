@@ -11,6 +11,7 @@ import addStaffAsset from "@/assets/afritransit/Screenshot_68.png.asset.json";
 import permissionsAsset from "@/assets/afritransit/Screenshot_69.png.asset.json";
 import accountingAsset from "@/assets/afritransit/Screenshot_70.png.asset.json";
 import ledgerAsset from "@/assets/afritransit/Screenshot_71.png.asset.json";
+import reportsAsset from "@/assets/afritransit/Screenshot_76.png.asset.json";
 
 const gallery = [
   {
@@ -57,6 +58,11 @@ const gallery = [
     image: ledgerAsset.url,
     title: "Payments ledger",
     description: "Review unpaid bookings and detailed transaction records for each reporting period.",
+  },
+  {
+    image: reportsAsset.url,
+    title: "Reports dashboard",
+    description: "A consolidated reports view summarising bookings, customers, staff, buses, routes, invoices and receipts.",
   },
 ];
 
