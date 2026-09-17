@@ -1,4 +1,4 @@
-import { Building2, GraduationCap, Scale, MessageSquare, Zap, ExternalLink, Globe, Calculator, Leaf, Network, Cpu, Bus } from "lucide-react";
+import { Building2, GraduationCap, Scale, MessageSquare, Zap, ExternalLink, Globe, Calculator, Leaf, Network, Cpu, Bus, Plane } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
@@ -129,6 +129,17 @@ const projects: Project[] = [
       { label: "View Demo", url: "/afritransit" }
     ] as ProjectLink[],
     isExternal: false,
+  },
+  {
+    title: "JS-BlueSky Aviation Website",
+    description: "A professional website for an aviation services company presenting its services with a commitment to regulatory excellence and precision. Features a polished, responsive design with clear navigation for visitors.",
+    icon: Plane,
+    tags: ["WordPress", "Elementor", "Responsive", "SEO"],
+    color: "from-sky-500/20 to-blue-500/20",
+    demoLinks: [
+      { label: "View Website", url: "https://js-blueskyaviation.com" }
+    ] as ProjectLink[],
+    isExternal: true,
   },
   {
     title: "Central Auto-Locking System",
